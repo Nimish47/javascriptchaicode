@@ -9,11 +9,8 @@
 // String.indexOf(searchstring, search-start-position)
 // String.lastIndexOf(searchstring, search-start-position)
 
-// by default search-start-position = 0
-
-
 // indexOf starts parsing the string from first index of string
-// indexOf starts parsing the string from last index of string
+// lastIndexOf starts parsing the string from last index of string
 
 const str = 'banana Apple oranges abcdefghi Apple' // a regular string
 
@@ -35,7 +32,8 @@ console.log(str.indexOf(''))                // 0    // no idea
 console.log(str.lastIndexOf(''))            // 36   // no idea
 
 console.log(str.indexOf('Apple', -1))            // 7    // -1 auto convert to 0. L->R first occurence at 7th index
-console.log(str.lastIndexOf('Apple', -1))       // -1   //  -1 auto convert to 0. R->L no strings left as 0 last index when parse R-> L
+console.log(str.lastIndexOf('Apple', -1))       // -1   //  -1 auto convert to 0. R->L no strings left as 0 last index 
+                                                        //   when parse R-> L
 
 
 
