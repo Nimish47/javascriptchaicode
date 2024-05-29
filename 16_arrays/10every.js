@@ -1,7 +1,7 @@
 // METHOD - every
 
 // "all" array iterations, callback condition should return true
-// Array.every((data,index)=> {callback condition...})
+// arr.every((data,index)=> {callback condition...})
 // if callback condition satisfied for all iterations, returns true, else false.
 // return boolean
 

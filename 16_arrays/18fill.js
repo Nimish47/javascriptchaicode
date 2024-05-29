@@ -4,7 +4,7 @@
 // startindex and endindex can be used to specifty where to start and end the replace process
 // [startindex and endindex)
 // modifies original array
-// Array.fill(constValue, startIndex:optional,endIndex:optional)
+// arr.fill(constValue, startIndex:optional,endIndex:optional)
 
 const arr = ["potato", "beans", "cardamom", "pickles"]
 const arr2 = ["potato", "beans", "cardamom", "pickles"]

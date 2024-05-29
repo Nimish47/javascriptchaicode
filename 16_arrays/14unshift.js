@@ -2,7 +2,7 @@
 
 // used to add elements into an array at 0th index(start)
 // we can add one/multiple values in array
-// Array.unshift(value1,value2,...)
+// arr.unshift(value1,value2,...)
 // to push an "array" of values make sure to spread them first
 // modifies original array
 // returns new length of array

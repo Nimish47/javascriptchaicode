@@ -1,7 +1,7 @@
 // METHOD - sort
 
-// Array.sort()
-// Array.sort((a,b)=>{sort callback fn..})
+// arr.sort()
+// arr.sort((a,b)=>{sort callback fn..})
 
 // modifies original array
 // returns the sorted array
@@ -16,7 +16,7 @@
 
 // how sort callback function works
     // use it only for sorting an array of numbers
-    // Array.sort((a,b)=>{sort callback fn..})         
+    // arr.sort((a,b)=>{sort callback fn..})         
     // if sort callback function returns:
         // < 0 : a comes first, b comes second
         // > 0 : b comes first, a comes second

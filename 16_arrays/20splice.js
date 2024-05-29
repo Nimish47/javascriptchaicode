@@ -1,7 +1,7 @@
 // METHOD -splice
 
 // used to REMOVE or REMOVE AND ADD elemets from/into an array 
-// Array.splice(startIndex:op,removeCount:op,addValue1:op,addValue2:op,...)
+// arr.splice(startIndex:op,removeCount:op,addValue1:op,addValue2:op,...)
 
     // startIndex: from where we want to perform operation
     // removeCount: remove elements from index = [startIndex,startIndex+removecount]

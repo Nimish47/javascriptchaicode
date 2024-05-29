@@ -4,7 +4,7 @@
 // callback fn: write certain condtion to check if array item filtered out or remains
 // if callback fn returns true, passed to new array else filtered out
 // returns a new array (original array untouched)
-// Array.filter((item,index)=>{...filterLogic})
+// arr.filter((item,index)=>{...filterLogic})
 
 const arr = [-2, -1, 0, 1, 2]
 

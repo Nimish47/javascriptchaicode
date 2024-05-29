@@ -1,7 +1,7 @@
 // METHOD - slice
 
 // used to slice a part of an array and store in a new array
-// Array.slice(startindex:optional,endindex:optional)
+// arr.slice(startindex:optional,endindex:optional)
 // if startindexindex and endindex not specified, whole array returned
 // if endindex not specified, endindex = length of array
 // cutting occurs - [startindex,endindex)

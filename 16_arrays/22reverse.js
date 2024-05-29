@@ -2,7 +2,7 @@
 
 // reverse order of array
 // can be used on any kind of array
-// Array.reverse()
+// arr.reverse()
 // returns reversed array
 // original array modified
 

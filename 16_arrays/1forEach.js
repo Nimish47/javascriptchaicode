@@ -3,7 +3,7 @@
 // simply loop over each item of an array
 // callback fn: perform certain task at the time of each iteration
 // original array untouched
-// Array.forEach((item, index)=>{....logic})
+// arr.forEach((item, index)=>{....logic})
 
 const arr = ["apple", "oranges", "grapes", "mangoes","watermelon"]
 

@@ -1,7 +1,7 @@
 // METHOD - some
 
 // "at least" in "one" array iteration, callback condition should return true
-// Array.some((data,index)=> {callback condition...})
+// arr.some((data,index)=> {callback condition...})
 // if callback condition satisfied at least once, returns true, else false.
 // return boolean
 

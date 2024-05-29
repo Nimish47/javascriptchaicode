@@ -3,7 +3,7 @@
 // very similar to Array.includes
 // used to verify if a checkValue is present in array entries
 // used with primitive array values (won't work with non-primitive values)
-// Array.indexOf(checkValue)
+// arr.indexOf(checkValue)
 // no callback function here, need to enter whole value
 // returns the matched array entry's index
 // if no match occurs, -1 returned

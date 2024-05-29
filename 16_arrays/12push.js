@@ -2,7 +2,7 @@
 
 // used to add one or more elements into an array at end (length-1)th index
 // we can add one/multiple values in array
-// Array.push(value1,value2,...)
+// arr.push(value1,value2,...)
 // to push an "array" of values make sure to spread them first
 // modifies original array
 // returns new length of array

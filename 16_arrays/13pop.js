@@ -2,7 +2,7 @@
 
 // removes last element of array
 // no parameters passed
-// Array.pop()
+// arr.pop()
 // modifies original array
 // returns array element removed
 

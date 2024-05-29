@@ -2,7 +2,7 @@
 
 // iterates array items and stops immediately if callback function returns true
 // if callback function returns true, execution stops and thet array element returned
-// Array.find((item)=> {...find logic})
+// arr.find((item)=> {...find logic})
 // returns the matched array entry - whatever the datatype it is
 // if no match occurs, undefined returned
 

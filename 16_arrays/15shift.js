@@ -2,7 +2,7 @@
 
 // removes first element of array
 // no parameters passed
-// Array.shift()
+// arr.shift()
 // modifies original array
 // returns array element removed
 

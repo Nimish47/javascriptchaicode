@@ -1,7 +1,7 @@
 // METHOD - includes
 
 // used to verify if a checkValue is present in array entries
-// Array.includes(checkValue)
+// arr.includes(checkValue)
 // only one checkValue to be present (ideally)
 // if multiple checkValues present, check will be performed for only first checkValue (see example)
 // checkValue should be of primitive data type only

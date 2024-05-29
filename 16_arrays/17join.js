@@ -3,7 +3,7 @@
 // convert array into a string
 // by default, all array items joined with seperator (if nothing entered, by default comma)
 // original array untouched
-// Array.join(seperator)
+// arr.join(seperator)
 // returns a string
 
 const arr = ["Golf","Squash","Polo"]

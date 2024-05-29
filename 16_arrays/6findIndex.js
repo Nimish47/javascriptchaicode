@@ -3,7 +3,7 @@
 // iterates array items and stops immediately if callback function returns true
 // if callback function returns true, execution stops and thet array element's index is returned
 // used mostly when array values are non-primitives (can be used with primitives as well, though)
-// Array.findIndex((item)=> {...find logic})
+// arr.findIndex((item)=> {...find logic})
 // returns the matched array element's index
 // if no match occurs, -1 returned
 
