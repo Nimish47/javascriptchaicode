@@ -16,6 +16,8 @@
 
 // returns a new Array
 // if not array-like obj, returns empty array
+// original array-like untouched
+
 
 const str = "Abdul"                         // strings: indexed AND length prop
 const obj1 = { name: "Ricky", age: 23 }     // indexed but no length (object has no length property)
@@ -23,7 +25,7 @@ const obj11 = { name: "Ricky", age: 23, length: 2 }  // indexed AND length expli
                                                      // Note here length is simply a key-value pair,
                                                      // won't update if more key-value pairs added in obj
 const obj2 = { 0: "Hello", 1: "Buddy" }     // indexed but no length
-const obj22 = { 0: "Hello", 1: "Buddy",length: 2 }     // indexed but no length
+const obj22 = { 0: "Hello", 1: "Buddy",length: 2 }     // indexed and length defined
 const obj3 = { length: 5 }                  // length
 
 

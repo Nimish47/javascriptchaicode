@@ -7,5 +7,4 @@
 // returns a string
 
 const arr = ["Golf","Squash","Polo"]
-
 console.log(arr.toString())     // "Golf,Squash,Polo"

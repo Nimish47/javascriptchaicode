@@ -7,6 +7,5 @@
 // arr.filter((item,index)=>{...filterLogic})
 
 const arr = [-2, -1, 0, 1, 2]
-
 const newArr = arr.filter((item) => item > 0)
 console.log(newArr)      // [1,2]

@@ -25,8 +25,8 @@ const removedArr2 = arr2.splice(1)
 const removedArr3 = arr3.splice(1,2)
 const removedArr4 = arr4.splice(1,2,"Nov","Oct")
 
-console.log(`Array1: ${arr1} | RemovedArr1: ${removedArr1}`)        // Array1: ["Jan","Feb","Mar","Apr"] | RemovedArr1: []
-console.log(`Array2: ${arr2} | RemovedArr2: ${removedArr2}`)        // Array2: ["Jan"] | RemovedArr2: ["Feb","Mar","Apr"]
-console.log(`Array3: ${arr3} | RemovedArr3: ${removedArr3}`)        // Array3: ["Jan","Apr"] | RemovedArr3: ["Feb","Mar"]
-console.log(`Array4: ${arr4} | RemovedArr4: ${removedArr4}`)        // Array4: ["Jan","Nov","Oct","Apr"] | RemovedArr4: ["Feb","Mar"]
+console.log(`${arr1} | ${removedArr1}`)        // ["Jan","Feb","Mar","Apr"] | []
+console.log(`${arr2} | ${removedArr2}`)        // ["Jan"] | ["Feb","Mar","Apr"]
+console.log(`${arr3} | ${removedArr3}`)        // ["Jan","Apr"] | ["Feb","Mar"]
+console.log(`${arr4} | ${removedArr4}`)        // ["Jan","Nov","Oct","Apr"] | ["Feb","Mar"]
 

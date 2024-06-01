@@ -6,6 +6,7 @@
 // Array.isArray(arr)
 // returns a boolean
 // array created by both [] and new Array keyword, both return true with Array.isArray(arr)
+// original array untouched
 
 const arr1 = [1, 2, 3, 4]
 const arr2 = new Array(1, 2, 3, 4)

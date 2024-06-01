@@ -6,7 +6,5 @@
 
 const arr = ["apple","oranges","strawberry"]
 const arr2 = ["papaya", "kiwi"]
-
-
 const newArr = arr.concat("banana", arr2)
-console.log(newArr)      // [ 'apple', 'oranges', 'strawberry', 'banana', 'papaya', 'kiwi' ]
+console.log(newArr)  // [ 'apple', 'oranges', 'strawberry', 'banana', 'papaya', 'kiwi' ]

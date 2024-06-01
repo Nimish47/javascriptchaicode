@@ -6,7 +6,6 @@
 // arr.forEach((item, index)=>{....logic})
 
 const arr = ["apple", "oranges", "grapes", "mangoes","watermelon"]
-
 arr.forEach((data,index) => console.log(`${index} ${data}`))
 
 /*
