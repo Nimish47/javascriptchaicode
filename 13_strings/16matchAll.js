@@ -82,4 +82,5 @@ console.log([...str.matchAll(/ain/gi)])
 console.log([...str.matchAll(/x/g)])        //[]
 
 // if regex used and /g not added, returns error
-console.log([...str.matchAll(/ain/)])       //TypeError: String.prototype.matchAll called with a non-global RegExp argument
+console.log([...str.matchAll(/ain/)])       //TypeError: String.prototype.matchAll 
+                                            // called with a non-global RegExp argument

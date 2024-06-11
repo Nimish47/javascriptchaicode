@@ -18,8 +18,8 @@ const str = 'Twinkle twinkle little twinkle star'
 console.log(str.replaceAll('twinkle', 'pringle'))                      // Twinkle pringle little pringle star
 
 // throws error - /g not used
-// console.log(str.replaceAll(/twinkle/, 'pringle'))                   // TypeError: String.prototype.replaceAll called with a non-global RegExp argument
-
+// console.log(str.replaceAll(/twinkle/, 'pringle'))                   // TypeError: String.prototype.replaceAll 
+                                                                       //called with a non-global RegExp argument
 // all matches replaced
 console.log(str.replaceAll(/twinkle/g, 'pringle'))                     // Twinkle pringle little pringle star
 

@@ -11,7 +11,10 @@
 
 
 const arr = [1, [2, 3], [[4], 5]]
-
 console.log(arr.flat())         // [ 1, 2, 3, [ 4 ], 5 ]
 console.log(arr.flat(1))        // [ 1, 2, 3, [ 4 ], 5 ]
 console.log(arr.flat(2))        // [ 1, 2, 3, 4, 5 ]
+
+const arr2 = [[[1],2]]
+console.log(arr2.flat())        // [ [ 1 ], 2 ]
+console.log(arr2.flat(2))       // [ 1, 2 ]

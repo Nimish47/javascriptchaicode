@@ -6,6 +6,7 @@
 // String.toLocaleLowerCase(locales)
 
 // locales- which country's language to be used to perform operation
+// so if the string is in turkish language, it makes sense to perform operation using turkish locales
 // returns a string
 
 const str = 'I like people of Ukraine'
