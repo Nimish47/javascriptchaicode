@@ -5,11 +5,11 @@
  *      a. Normal functions
  *      b. Arrow functions
  *      c. shorthand
- * To access object' properties inside object's function:
+ * To access object's properties from inside object's function:
  *      - we use 'this' keyword
  *      - this.objectkeyName
  *      - however, we cannot access object properties from an arrow function (see type 2),
- *        since 'this' works differently in arrow function  
+ *        because 'this' works differently in arrow function  
  *  */
 
 

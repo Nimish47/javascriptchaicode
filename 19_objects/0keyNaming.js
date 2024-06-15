@@ -1,8 +1,14 @@
 /**
  * NAMING OF KEYS IN JAVASCRIPT
- * for multi word key-names, make sure to wrap them in quotes (otherwise throws error)
- * for single worded key-names, need not wrap them. JS behind the scenes converts such key-names to strings
- * to access a multi-word keyname, we need to use [] bracket notation and not (.) notation
+ * If keyname is multi-worded: wrap them in quotes as strings (otherwise throws error)
+ *      - const obj = { 'first name': 'Nishant' }
+ * If keyname is single-worded: optional, need not wrap them, JS behind the scenes converts them to strings
+ *      - const obj = { fullname: 'Nishant' }
+ * To access a multi-word keyname:
+ *      - use [] bracket notation
+ *          - obj['first name']
+ *      - don't use (.) notation (throws error)
+ *          - obj.first name   // throws error 
  *  */ 
 
 
