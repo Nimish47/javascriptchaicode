@@ -1,6 +1,7 @@
 /**
  * OBJECT DESTRUCTURING IN JAVASCRIPT - BEHIND THE SCENES 
  * newly created variables basically copy object property values
+ * shallow copy happens under the hood
  * if newly created variable extracts primitive object property:
  *  - copy by value occurs
  *  - hence, modifying the new created variable does not modify original object property
