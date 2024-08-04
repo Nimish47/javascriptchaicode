@@ -14,6 +14,7 @@
  *                        - it means if deeper copy elements are modified, original object also modified       
  *    - using assignment operator
  *          - let copy_obj = obj
+ *          - assignment operation to copy an object in JS : it only leads to creating a reference to the same object!
  *          - each object property's value - whether primitive or non-primitive is referenced
  *          - hence, updating the copy object's property value modifies original object
  *          - this way is copy by reference (shallow copy is different)

@@ -1,6 +1,7 @@
 /**
  * FUNCTIONS IN OBJECT
  * In javascript, we can have functions inside objects
+ * In javascript, methods are also properties (with type function).
  * functions can pe defined in three ways in objects:
  *      a. Normal functions
  *      b. Arrow functions
