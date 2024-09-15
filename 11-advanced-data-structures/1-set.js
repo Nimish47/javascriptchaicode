@@ -50,7 +50,10 @@
  *  - modifies orginal set 
  *  size:
  *  - set.size
- *  - return number of elements in a set   
+ *  - return number of elements in a set
+ *  The key and value of a set are the SAME
+ *      apply setObj.keys() or setObj.values()
+ *      you will see both return same values   
  *  */
 
 const { log } = console
