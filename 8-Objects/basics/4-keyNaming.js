@@ -4,7 +4,7 @@
  *      - const obj = { 'first name': 'Nishant' }
  * If keyname is single-worded: optional, need not wrap them, JS behind the scenes converts them to strings
  *      - const obj = { fullname: 'Nishant' }
- * To access a multi-word keyname:
+ * To ACCESS a multi-word keyname:
  *      - use [] bracket notation
  *          - obj['first name']
  *      - don't use (.) notation (throws error)
